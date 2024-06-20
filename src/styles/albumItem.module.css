@@ -1,0 +1,11 @@
+.album_container {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+}
+.album_title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23.4px;
+  max-width: 615px;
+}

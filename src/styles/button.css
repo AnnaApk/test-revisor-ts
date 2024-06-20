@@ -1,0 +1,28 @@
+.button {
+  min-width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: rgba(17, 125, 193, 1);
+  border: none;
+  padding: 0;
+
+  margin-right: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.button__sign-1 {
+  position: absolute;
+  height: 14px;
+  width: 2px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.button__sign-2 {
+  height: 2px;
+  width: 14px;
+  background-color: rgba(255, 255, 255, 1);
+}

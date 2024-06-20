@@ -1,0 +1,22 @@
+/* Tooltip.module.css */
+.tooltip {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.69);
+  color: rgba(255, 255, 255, 1);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  pointer-events: none;
+  z-index: 1000;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s;
+
+  width: 150px;
+}
+
+.tooltipVisible {
+  visibility: visible;
+  opacity: 1;
+}

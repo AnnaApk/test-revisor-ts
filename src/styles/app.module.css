@@ -1,0 +1,36 @@
+.app {
+  width: 744px;
+  margin: 64px auto 126.44px;
+}
+
+.header {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.header__link {
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: rgba(28, 28, 28, 1);
+
+  text-align: center;
+  width: 372px;
+  height: 55px;
+  padding: 16px 32px;
+  border-radius: 16px;
+}
+
+.header__link_current {
+  background: rgba(237, 249, 255, 1);
+  color: rgba(17, 125, 193, 1);
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
